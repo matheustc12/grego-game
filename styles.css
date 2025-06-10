@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eef6fb;
+  padding: 40px;
+}
+
+.greek-letter {
+  font-size: 120px;
+  margin-bottom: 20px;
+  color: #004466;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #0077cc;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #005999;
+}
+
+button {
+  margin-left: 15px;
+  padding: 10px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005999;
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  min-height: 28px;
+}
+
+.score {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #003344;
+}
+
+.end-btn {
+  margin-top: 40px;
+  background-color: #cc3300;
+}
+
+.end-btn:hover {
+  background-color: #990000;
+}
+
+#endMessage {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #990000;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .greek-letter {
+    font-size: 80px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .feedback,
+  .score,
+  #endMessage {
+    font-size: 18px;
+  }
+}

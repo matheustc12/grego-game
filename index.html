@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jogo do Alfabeto Grego Minúsculo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Jogo do Alfabeto Grego Minúsculo</h1>
+
+  <div class="greek-letter" id="greekLetter">α</div>
+
+  <div>
+    <input type="text" id="answerInput" placeholder="Digite o nome da letra grega" autocomplete="off" />
+    <button id="submitBtn">Enviar</button>
+  </div>
+
+  <div class="feedback" id="feedback"></div>
+  <div class="score" id="score">Pontuação: 0</div>
+
+  <button id="endGameBtn" class="end-btn">Encerrar Jogo</button>
+  <div id="endMessage"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
