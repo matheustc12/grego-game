@@ -15,7 +15,7 @@ const greekAlphabet = [
   { letter: 'ξ', name: 'Xi' },
   { letter: 'ο', name: 'Omicron' },
   { letter: 'π', name: 'Pi' },
-  { letter: 'ρ', name: 'ho' },
+  { letter: 'ρ', name: 'Rho' },
   { letter: 'σ', name: 'Sigma' }, // Usado no meio da palavra
   { letter: 'τ', name: 'Tau' },
   { letter: 'υ', name: 'Upsilon' },
